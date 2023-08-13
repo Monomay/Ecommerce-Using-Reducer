@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background: #b15757;
+      box-sizing: border-box;
+      overflow-x: hidden;
+  }
+  .cart-container {
+    width: 98%;
+      height: 15rem;
+      border: none;
+      border-radius: 10px;
+      position: relative;
+      margin-left: 1rem;
+      margin-bottom: 1rem;
+      background: #fff
+  }
+  .cart-heading {
+    width: 100vw;
+    font-size: 105%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+  .cart-img img {
+    width: 12vw;
+    height: 28vh;
+    position: absolute;
+    left: 0%;
+    top: 13%;
+    /* bottom: 0.2rem; */
+  }
+  
+  .cart-value {
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    left: 14%;
+    bottom: 19%;
+  }
+  button{
+    position: relative;
+    border: none;
+  }
+
+  .remove-btn{
+    display: flex;
+    justify-content: right;
+    /* width: 35px;
+    height: 35px;
+    position: relative;
+    left: 73rem;
+    bottom: -7rem; */
+  }
+
+  .delete{
+    position: absolute;
+    top: 79%;
+    right: 7%;
+  }
+  .edit{
+    position: absolute;
+    top: 79%;
+    right: 2%;
+  }
+
+  .delete img{
+    width: 3vw;
+    height: 5vh;
+    align-items: center;
+  }
+  .edit img{
+    width: 3vw;
+    height: 5vh;
+  }
+  
+  .description-container{
+    width: 54vw;
+      height: 18vh;
+      font-family: 'Times New Roman', Times, serif;
+      position: absolute;
+      right: 2%;
+      /* top: 3.2rem; */
+      display: flex;
+      align-items: center;
+  }
+  

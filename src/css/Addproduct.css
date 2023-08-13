@@ -1,0 +1,42 @@
+
+.add-container{
+    width: 100%;
+    height: 25rem;
+    /* border: 1px solid black; */
+    margin: 0.5rem 0 0 0;
+    
+}
+.add-heading{
+    color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.input-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 30rem;
+  height: 20rem;
+  background-color: rgb(65 111 143);
+  margin: auto;
+  position: relative;
+}
+input{
+    width: 25rem;
+    height: 2.0rem;
+    margin: 0 0 0.3rem 0;
+}
+input:hover{
+    border: 1px solid rgb(13, 8, 114);
+   
+}
+.add-btn{
+    width: 5.5rem;
+    height: 2rem;
+    display: flex;
+    position: absolute;
+    /* //right: 2.4rem; */
+    top: 16rem;
+}
